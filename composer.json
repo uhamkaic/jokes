@@ -1,0 +1,24 @@
+{
+    "name": "uhamkaic/jokes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dizzy1021\\LearnPackages\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dizzy1021\\LearnPackages\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "dizzy1021",
+            "email": "dimasadiprananda@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
